@@ -1073,6 +1073,7 @@ input[type="e-mail" i] {
 }
 
 .flex-main-info {
+    margin: auto;
     display: flex;
     justify-content: space-between;
     width: 75%;
@@ -1080,6 +1081,15 @@ input[type="e-mail" i] {
     font-weight: 700;
     font-size: 22px;
     padding: 8px;
+}
+
+.info-link{
+    color: #D4D4D4;
+}
+
+.active-info {
+    color: #1A1A1A;
+    border-bottom: 3px solid #D4D4D4;
 }
 
 .rer {
