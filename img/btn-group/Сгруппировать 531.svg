@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <filter id="Эллипс_14" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_531" data-name="Сгруппировать 531" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Эллипс_14)">
+      <circle id="Эллипс_14-2" data-name="Эллипс 14" cx="22.5" cy="22.5" r="22.5" transform="translate(9 6)" fill="#4cc8e5"/>
+    </g>
+    <path id="Icon_feather-heart" data-name="Icon feather-heart" d="M16.882,5.694a4.2,4.2,0,0,0-5.872,0l-.8.787-.8-.787a4.2,4.2,0,0,0-5.872,0,4.039,4.039,0,0,0,0,5.777l.8.787,5.872,5.777,5.872-5.777.8-.787a4.038,4.038,0,0,0,0-5.777Z" transform="translate(12.177 11.003)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

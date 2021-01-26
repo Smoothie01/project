@@ -1085,6 +1085,7 @@ input[type="e-mail" i] {
 
 .info-link{
     color: #D4D4D4;
+    cursor: pointer;
 }
 
 .active-info {
@@ -1643,6 +1644,53 @@ time{
 }
 
 
+
+.show{
+    display: block;
+}
+
+.btn-group{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    opacity: 0;
+    transition: .2s linear;
+}
+
+
+.cart-image{
+    position: relative;
+}
+
+.cart:hover{
+    transition: .2s;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.cart:hover .btn-group{
+    opacity: 1;
+}
+.cart:hover .arrow-right{
+    opacity: 1;
+}
+.cart:hover .arrow-left{
+    opacity: 1;
+}
+.btn-group{
+    cursor: pointer;
+}
+
+.arrow-left, .arrow-right{
+    transition: .2s;
+    opacity: 0;
+    position: absolute;
+    top:50%;
+}
+.arrow-right{
+    right:20px;
+}
+.arrow-left{
+    left:20px;
+}
 /* input */
 input[type="checkbox"]:checked, 
 input[type="checkbox"]:not(:checked), 
