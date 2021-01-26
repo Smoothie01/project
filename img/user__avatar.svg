@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="user__avatar" transform="translate(-241 -3319)">
+    <rect id="Прямоугольник_194" data-name="Прямоугольник 194" width="50" height="50" transform="translate(241 3319)" fill="#eeebeb"/>
+    <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(260.576 3337.5)">
+      <path id="Контур_29" data-name="Контур 29" d="M18,26.9V25.433A2.967,2.967,0,0,0,15,22.5H9a2.967,2.967,0,0,0-3,2.933V26.9" transform="translate(-6 -13.899)" fill="none" stroke="#d3d1d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Контур_30" data-name="Контур 30" d="M17.865,7.433A2.933,2.933,0,1,1,14.933,4.5,2.933,2.933,0,0,1,17.865,7.433Z" transform="translate(-8.933 -4.5)" fill="none" stroke="#d3d1d1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

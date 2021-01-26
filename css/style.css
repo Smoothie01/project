@@ -1293,7 +1293,7 @@ input.cc-cvc {
 .report-2 {
     width: 70%;
     border: 1px solid  #F2F2F2;
-    padding: 50px;
+    padding: 10px 50px;
 }
 
 .flex-container {
@@ -1575,6 +1575,61 @@ h4{
 
 .review__content{
     margin-bottom: 200px;
+}
+
+.user{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.user__avatar{
+    display: block;
+}
+
+.small-star{
+    width: 14px;
+}
+
+.user__review{
+    margin-left: 70px;
+}
+
+.user__name{
+    font-size: 16px;
+    color:#184954;
+    margin-bottom: 10px;
+}
+
+.user_title{
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 10px ;
+}
+
+.like{
+    display: flex;
+    float:right;
+    font-size: 14px;
+    color:#AAAAAA;
+}
+
+.like__item{
+    color:#45AF2C;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.more{
+    border-bottom:1px solid #90ABB1;
+    margin: 28px 0 28px 125px;
+    width: max-content;
+    cursor: pointer;
+}
+
+time{
+    font-size: 14px;
+    margin-left: 20px;
+    color:#AAAAAA;
 }
 
 
