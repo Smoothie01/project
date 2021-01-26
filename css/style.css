@@ -80,10 +80,17 @@ li {
     font-size: 16px;
     height: 3.875rem;
 }
+.img-navbar__mobile{
+    display: none;
+}
 
 .navbar-h4 {
     font-size: 11px;
     color: #184954;
+}
+
+.icon-menu__mobile{
+    display: none;
 }
 
 .nav-link > ul{
@@ -99,6 +106,10 @@ li {
 
 .img-navbar > a {
     margin-left: 42px;
+}
+
+.img-navbar__mobile > a{
+    margin-left: 10px;
 }
 
 .nav-search {
@@ -182,8 +193,8 @@ ul li ul li {
 .home-img {
     height: 45rem;
     width: 100%;
-    background: url(../img/section1.png);
-    background-size: cover;
+    background: url(../img/section1.png) no-repeat;
+    background-size: 100% auto;
 }
 
 .section1 {
@@ -226,6 +237,7 @@ ul li ul li {
 .flex-cart {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .img-full-width {
