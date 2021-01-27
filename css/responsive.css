@@ -492,6 +492,77 @@
         margin-bottom: 33px;
     }
 
+    .flex-purchase-2 {
+        flex-wrap: wrap;
+        padding: 15px 0 50px 0;
+        align-items: center;
+        border: 2px solid #D9D9D9;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .input-width {
+        flex-wrap: wrap;
+    }
+    .input-width-p {
+        width: 100%;
+    }
+
+    input[type="e-mail" i] {
+        font-size: 21px;
+        border-radius: 30px;
+    }
+
+    input[type="tel" i] {
+        font-size: 17px;
+        border-radius: 30px;
+    }
+
+    .option-select {
+        color: #B7B7B7;
+        font-size: 21px;
+        border-radius: 30px;
+        margin-right: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .margin-input {
+        margin-bottom: 10px;
+    }
+
+    .summa-zakaza {
+        width: 90%;
+        margin: 0 auto 50px auto;
+        height: 26rem;
+        padding: 30px;
+        border: 1px solid #D9D9D9;
+        background-color: #F3F3F3;
+    }
+
+    .purchase-title > p {
+        margin: auto;
+    }
+
+    .input-width input{
+        margin: 5px 0;
+        /* border: 1px solid black; */
+    }
+
+    .img-pur {
+        width: 100%;
+    }
+
+    .flex-card-rrr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .thanks {
+        width: 100%;
+    }
+    
+
 }
 
 @media screen and (max-width: 767px){
