@@ -1040,6 +1040,7 @@ input[type="e-mail" i] {
     border-radius: 50px;
     font-size: 17px;
     text-align: center;
+    cursor: pointer;
     font-weight: 700;
 }
 
@@ -1164,6 +1165,11 @@ input[type="e-mail" i] {
 
 .flex-item-video {
     text-align: center;
+}
+
+.flex-item-video iframe{
+    width: 800px;
+    height: 500px;
 }
 
 .youtube-video {

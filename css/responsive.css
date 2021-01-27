@@ -172,6 +172,50 @@
         margin: auto;
     }
 
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .report-1 {
+        width: 100%;
+    }
+
+    .report-2 {
+        width: 100%;
+    }
+
+    .form__group input {
+        font-size: 21px;
+        border-radius: 45px;
+    }
+
+    .btn-fast-order {
+        width: 100%;
+    }
+
+    .erty {
+        width: 100%;
+        margin-left: 40px;
+    }
+    .erty hr{
+        display: none;
+    }
+
+    .flex-main-info {
+        font-size: 18px;
+    }
+    .more {
+        text-align: center;
+        margin: 15px 0px 28px 0px;
+        width: 100%;
+    }
+
+    .flex-item-video iframe{
+        width: 400px;
+        height: 250px;
+    }
+
 }
 
 @media screen and (max-width: 767px){
