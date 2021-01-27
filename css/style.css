@@ -155,7 +155,7 @@ li {
     color: white !important;
 }
 
-ul li ul {
+.dropdown {
     background: #4CC8E5;
     font-size: 18px;
     visibility: hidden;
@@ -168,10 +168,13 @@ ul li ul {
 }
   
 ul li:hover > ul,
-ul li ul:hover {
+.dropdown:hover {
     visibility: visible;
     opacity: 1;
     display: block;
+}
+.dropdown-mobile{
+    display: none;
 }
   
 ul li ul li {
@@ -1042,6 +1045,7 @@ input[type="e-mail" i] {
     text-align: center;
     cursor: pointer;
     font-weight: 700;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5)
 }
 
 .btn-order {
@@ -1051,6 +1055,7 @@ input[type="e-mail" i] {
     text-align: center;
     background: #4CC8E5;
     border-radius: 100%;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5)
 }
 
 .btn-order > img {
@@ -1709,6 +1714,12 @@ time{
 .arrow-left{
     left:20px;
 }
+
+.info-content-mobile{
+    display: none;
+}
+
+
 /* input */
 input[type="checkbox"]:checked, 
 input[type="checkbox"]:not(:checked), 

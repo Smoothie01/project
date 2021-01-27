@@ -40,10 +40,11 @@
     }
     .logo {
         padding: 20px 0 50px 0;
-        width: 450px;
+        width: 50%;
     }
     .container {
-        max-width: 95%;
+        max-width: 100%;
+        padding:0;
     }
     .first-nav {
         display: none;
@@ -77,6 +78,11 @@
         background-color: #F2F2F2;
         z-index: 100;
         padding: 11px 0;
+        font-size: 13px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+    .third-navbar{
+        display: none;
     }
     .icon-menu{
         display: none;
@@ -106,7 +112,8 @@
         font-size: 15px;
     }
     .third-nav ul{
-        padding-right: 40px;
+        padding-right: 0;
+        padding-left: 0;
     }
 
 
@@ -185,7 +192,7 @@
         width: 100%;
     }
 
-    .form__group input {
+    .form__input {
         font-size: 21px;
         border-radius: 45px;
     }
@@ -196,7 +203,8 @@
 
     .erty {
         width: 100%;
-        margin-left: 40px;
+        margin: auto;
+        padding: 10px;
     }
     .erty hr{
         display: none;
@@ -204,6 +212,8 @@
 
     .flex-main-info {
         font-size: 18px;
+        display: block;
+        text-align: center;
     }
     .more {
         text-align: center;
@@ -216,11 +226,280 @@
         height: 250px;
     }
 
+    .dropdown-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #4CC8E5;
+        width: 100vw;
+        height: 89vh;
+        overflow: hidden;
+        z-index: 1000;
+        color: white;
+        /* hide the menu above the screen by default */
+        transform: translateY(-120%);
+        /* transition adds a little animation when sliding in and out the menu */
+        transition: transform 0.2s ease;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .closeBtn {
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+        background-repeat: no-repeat;
+    }
+    
+    .showNav {
+        /* show the menu */
+        transform: translateY(-1%);
+    }
+    
+    .dropdown-mobile li a {
+        color: white;
+        padding-bottom: 10px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    .rerter img {
+        width: 100%;
+    }
+    .dropdown-mobile li a:hover, .dropdown-mobile li a:focus {
+        border-bottom: 2px solid white;
+    }
+    .img-cart > img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .footer-img {
+        padding: 50px 0 100px 0;
+        text-align: center;
+    }
+
+    .footer-img  img{
+        width: 100%;
+    }
+
+    .flex-item {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #F2F2F2;
+    }
+
+    .img-navbar__mobile > a {
+        margin-left: 0;
+    }
+
+    .ggg {
+        text-align: center;
+        margin: auto;
+    }
+    .btn-order img{
+        width: 30px;
+    }
+
+    input[type="text" i] {
+        margin: 0;
+    }
+
+    .review{
+        display: none;
+    }
+    .info-content{
+        display: none;
+    }
+
+
+    
+    .info-content-mobile{
+        display: block;
+        margin-top: 55px;
+    }
+    .accordion {
+        background-color: #f2f2f2;
+        color: #1A1A1A;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        font-size: 14px;
+        outline: none;
+        text-transform: uppercase;
+        transition: 0.4s;
+        font-weight: bold;
+      }
+      
+      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+      .active, .accordion:hover {
+        background-color: #f2f2f2;
+      }
+      
+      /* Style the accordion panel. Note: hidden by default */
+      .panel {
+        padding: 0;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+      .accordion:after {
+        content: '\02C5'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\005E"; /* Unicode character for "minus" sign (-) */
+      }
+
+      .o-tovare {
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 15px;
+    }
+
+    .margin-left-px {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .section-10 > h1 {
+        margin-left: 20px;
+    }
+
+    .flex-nav {
+        display: block;
+        padding: 50px 0 50px 0;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .flexbox-footer {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    .bir-section{
+        text-align: center;
+    }
+
+    .bir-section ul{
+        padding: 0;
+    }
+
+    .img-jc{
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-jc img{
+        margin: 0 15px;
+    }
+    .margin-text {
+        margin-left: 0px;
+        color: #5D6F72;
+    }
+    .space-let {
+        color: #5D6F72;
+    }
+    .margin-footer-left {
+        margin-left: 0;
+    }
+    .bold-text{
+        font-weight: bold;
+    }
+
+    .train {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trim {
+        display: flex;
+        border: 1px solid #D9D9D9;
+        height: auto;
+        width: auto;
+        margin: 50px 20px 50px 0;
+    }
+    .flex-section-img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us-img img{
+        width: 100%;
+    }
+
+    .partners-img div{
+        width: 100%;
+    }
+
+    .input-about-us > input {
+        border-radius: 45px;
+    }
+
+    .category__left {
+        display: none;
+    }
+    .category__inner {
+        justify-content: center;
+    }
+    .catalog__text {
+        font-size: 35px;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+    .span-cart-head br{
+        display: block;
+    }
+    .category__right--content {
+        justify-content: center;
+    }
+
+    .category__sort {
+        margin:auto;
+        margin-bottom: 30px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .flex-contacts {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 90px;
+        flex-wrap: wrap;
+    }
+
+    .flex-contacts-us {
+        display: flex;
+        margin-bottom: 33px;
+    }
+
 }
 
 @media screen and (max-width: 767px){
-    .third-nav ul{
-        padding-right: 20px;
+    .showNav {
+        transform: translateY(-3%);
+    }
+    .dropdown-mobile {
+        height: 91vh;
     }
 }
 
